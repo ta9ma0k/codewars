@@ -22,6 +22,11 @@ public class PrimeTest {
     }
 
     @Test
+    public void _6は素数でないと判定する() {
+        assertFalse(Prime.isPrime(6));
+    }
+
+    @Test
     public void _1は素数でないと判定する() {
         assertFalse(Prime.isPrime(1));
     }
